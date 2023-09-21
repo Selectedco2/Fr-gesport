@@ -2,6 +2,8 @@
 
 using System.ComponentModel;
 
+Console.ForegroundColor = ConsoleColor.Cyan;
+
 int points =  0;
 
 Console.WriteLine("State your name challanger");
@@ -57,7 +59,29 @@ string question3 = Console.ReadLine().ToUpper();
         Console.WriteLine("Nope, incorrect. The answer was “The end”.");
 
     }
+
+    Console.WriteLine( );
+Console.WriteLine("Okay, next question!");
 Console.WriteLine( );
+
+// Japan eleven gjorde denna fråga
+
+// Console.WriteLine("Which ones Minecraft character?");
+// Console.WriteLine("a) Pip b) naohito c) Enderman"); 
+//     string question4 = Console.ReadLine().ToUpper();
+
+//     if (question4 == "C")
+//     {
+//         Console.WriteLine("You are a genius");
+//         points++;
+//     }
+//     else
+//     {
+//         Console.WriteLine("jävla fitta");
+
+//     }
+Console.WriteLine( );
+
 Console.WriteLine("Here are your final points, challenger!");
 
 if (points <= 1)
@@ -79,6 +103,7 @@ else if (points == 3)
     Console.WriteLine("Damn, you really are a master when it comes to gaming knowledge!");
 
 }
+
 
 
 Console.ReadLine();
