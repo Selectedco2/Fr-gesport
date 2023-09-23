@@ -23,7 +23,7 @@ Console.WriteLine("A) God of war: Ragnarok. B) Elden ring. C) Stray. ");
     }
     else
     {
-        Console.WriteLine("Not quite!");
+        Console.WriteLine("Not quite! The answer was Elden ring");
     }
 Console.WriteLine( );
 Console.WriteLine("Okay, next question!");
